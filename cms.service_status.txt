@@ -1,0 +1,142 @@
+ndcsp-p-cloud-prodinfra5 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-prodinfra4 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-prodinfra2 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-prodinfra1 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-prodinfra3 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-prodcompute1 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute2 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute4 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute5 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute3 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute6 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute7 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute8 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute9 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute10 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute11 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute12 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute15 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute13 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute14 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute16 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute17 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute18 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute19 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute20 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-storageinfra2 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-storageinfra1 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-storageinfra3 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage1 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage2 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage3 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage4 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage5 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage6 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage7 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage9 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage8 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage10 | FAILED | rc=3 >>
+● cma.service - LSB: McAfee Agent
+     Loaded: loaded (/etc/init.d/cma; generated)
+     Active: inactive (dead)
+       Docs: man:systemd-sysv-generator(8)non-zero return code
+ndcsp-p-cloud-blockstorage12 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage11 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage13 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage14 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage15 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage16 | FAILED | rc=4 >>
+Unit cma.service could not be found.non-zero return code

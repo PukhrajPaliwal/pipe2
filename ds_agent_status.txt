@@ -1,0 +1,574 @@
+ndcsp-p-cloud-prodinfra5 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-prodinfra4 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-prodinfra3 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-prodinfra1 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-prodinfra2 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-prodcompute1 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:46:16 UTC; 2 weeks 0 days ago
+   Main PID: 3634055 (ds_agent)
+      Tasks: 173 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─3269441 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3634055 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3634056 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3634707 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3634708 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3634722 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3634788 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute2 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:26:18 UTC; 2 weeks 0 days ago
+   Main PID: 3728719 (ds_agent)
+      Tasks: 176 (limit: 1024)
+     Memory: 3.9G
+     CGroup: /system.slice/ds_agent.service
+             ├─3667324 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3728719 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3728720 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3729297 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3729298 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3729310 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3729431 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 10 05:39:56 ndcsp-p-cloud-prodcompute2 ds_am.init[3667707]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 10 05:39:56 ndcsp-p-cloud-prodcompute2 ds_am.init[3667717]: check_and_set_cgroup_path, t1:cgroup
+Apr 10 05:39:56 ndcsp-p-cloud-prodcompute2 ds_am.init[3667718]: check_and_set_cgroup_path, t2:on
+Apr 10 05:39:56 ndcsp-p-cloud-prodcompute2 ds_am.init[3667719]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 10 05:39:56 ndcsp-p-cloud-prodcompute2 ds_am.init[3667720]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute4 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2025-04-11 06:15:03 UTC; 4 days ago
+   Main PID: 2875 (ds_agent)
+      Tasks: 168 (limit: 1024)
+     Memory: 4.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─2875 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─2877 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4346 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4347 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4359 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4463 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─4479 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 11 06:15:03 ndcsp-p-cloud-prodcompute4 systemd[1]: Starting Trend Micro Deep Security Agent...
+Apr 11 06:15:03 ndcsp-p-cloud-prodcompute4 ds_agent.init[2519]: Starting ds_agent: [OK]
+Apr 11 06:15:03 ndcsp-p-cloud-prodcompute4 systemd[1]: Started Trend Micro Deep Security Agent.
+Apr 11 06:15:33 ndcsp-p-cloud-prodcompute4 ds_am.init[4628]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 11 06:15:33 ndcsp-p-cloud-prodcompute4 ds_am.init[4638]: check_and_set_cgroup_path, t1:cgroup
+Apr 11 06:15:33 ndcsp-p-cloud-prodcompute4 ds_am.init[4639]: check_and_set_cgroup_path, t2:on
+Apr 11 06:15:33 ndcsp-p-cloud-prodcompute4 ds_am.init[4640]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 11 06:15:33 ndcsp-p-cloud-prodcompute4 ds_am.init[4641]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+ndcsp-p-cloud-prodcompute5 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 09:32:01 UTC; 2 weeks 0 days ago
+   Main PID: 4119144 (ds_agent)
+      Tasks: 175 (limit: 1024)
+     Memory: 4.6G
+     CGroup: /system.slice/ds_agent.service
+             ├─4119144 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4119145 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4119710 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4119711 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4119723 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4119788 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─4189972 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 10 10:03:04 ndcsp-p-cloud-prodcompute5 ds_am.init[4190155]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 10 10:03:04 ndcsp-p-cloud-prodcompute5 ds_am.init[4190165]: check_and_set_cgroup_path, t1:cgroup
+Apr 10 10:03:04 ndcsp-p-cloud-prodcompute5 ds_am.init[4190166]: check_and_set_cgroup_path, t2:on
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute3 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:08:14 UTC; 2 weeks 0 days ago
+   Main PID: 4054320 (ds_agent)
+      Tasks: 179 (limit: 1024)
+     Memory: 3.8G
+     CGroup: /system.slice/ds_agent.service
+             ├─1956011 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─4054320 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4054321 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4054927 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4054928 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4054941 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─4055043 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 07 09:08:41 ndcsp-p-cloud-prodcompute3 ds_am.init[2713343]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 07 09:08:41 ndcsp-p-cloud-prodcompute3 ds_am.init[2713363]: check_and_set_cgroup_path, t1:cgroup
+Apr 07 09:08:41 ndcsp-p-cloud-prodcompute3 ds_am.init[2713364]: check_and_set_cgroup_path, t2:on
+Apr 14 17:05:55 ndcsp-p-cloud-prodcompute3 ds_am.init[1956123]: The ds_am module try unload driver tmhook, loaded=
+Apr 14 17:05:56 ndcsp-p-cloud-prodcompute3 ds_am.init[1956693]: update_bm_cgroup_path, v1_path: cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+Apr 14 17:05:56 ndcsp-p-cloud-prodcompute3 ds_am.init[1956694]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 14 17:05:56 ndcsp-p-cloud-prodcompute3 ds_am.init[1956717]: check_and_set_cgroup_path, t1:cgroup
+Apr 14 17:05:56 ndcsp-p-cloud-prodcompute3 ds_am.init[1956720]: check_and_set_cgroup_path, t2:on
+Apr 14 17:05:56 ndcsp-p-cloud-prodcompute3 ds_am.init[1956724]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 14 17:05:56 ndcsp-p-cloud-prodcompute3 ds_am.init[1956727]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+ndcsp-p-cloud-prodcompute6 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-15 08:07:52 UTC; 3h 38min ago
+    Process: 2546 ExecStart=/opt/ds_agent/ds_agent.init start (code=exited, status=0/SUCCESS)
+   Main PID: 2863 (ds_agent)
+      Tasks: 144 (limit: 1024)
+     Memory: 2.9G
+     CGroup: /system.slice/ds_agent.service
+             ├─2863 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─2864 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4462 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4463 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4477 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4951 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─4967 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 15 08:07:52 ndcsp-p-cloud-prodcompute6 systemd[1]: Starting Trend Micro Deep Security Agent...
+Apr 15 08:07:52 ndcsp-p-cloud-prodcompute6 ds_agent.init[2546]: Starting ds_agent: [OK]
+Apr 15 08:07:52 ndcsp-p-cloud-prodcompute6 systemd[1]: Started Trend Micro Deep Security Agent.
+Apr 15 08:08:21 ndcsp-p-cloud-prodcompute6 ds_am.init[5113]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 15 08:08:21 ndcsp-p-cloud-prodcompute6 ds_am.init[5123]: check_and_set_cgroup_path, t1:cgroup
+Apr 15 08:08:21 ndcsp-p-cloud-prodcompute6 ds_am.init[5125]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+ndcsp-p-cloud-prodcompute7 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 08:53:31 UTC; 2 weeks 0 days ago
+   Main PID: 3440974 (ds_agent)
+      Tasks: 175 (limit: 1024)
+     Memory: 3.6G
+     CGroup: /system.slice/ds_agent.service
+             ├─3440974 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3440975 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3441533 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3441534 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3441549 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3441674 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─3891940 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 11 08:37:23 ndcsp-p-cloud-prodcompute7 ds_am.init[3892122]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 11 08:37:23 ndcsp-p-cloud-prodcompute7 ds_am.init[3892132]: check_and_set_cgroup_path, t1:cgroup
+Apr 11 08:37:23 ndcsp-p-cloud-prodcompute7 ds_am.init[3892133]: check_and_set_cgroup_path, t2:on
+Apr 11 08:37:23 ndcsp-p-cloud-prodcompute7 ds_am.init[3892135]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute8 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 11:28:30 UTC; 2 weeks 0 days ago
+   Main PID: 3748547 (ds_agent)
+      Tasks: 176 (limit: 1024)
+     Memory: 3.8G
+     CGroup: /system.slice/ds_agent.service
+             ├─3218782 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3748547 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3748548 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3749115 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3749116 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3749130 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3749281 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 09 06:55:27 ndcsp-p-cloud-prodcompute8 ds_am.init[3219037]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute9 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:55:20 UTC; 2 weeks 0 days ago
+   Main PID: 294975 (ds_agent)
+      Tasks: 180 (limit: 1024)
+     Memory: 3.6G
+     CGroup: /system.slice/ds_agent.service
+             ├─ 294975 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─ 294976 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─ 295532 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─ 295533 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─ 295546 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─ 295665 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─2436265 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 06 13:00:48 ndcsp-p-cloud-prodcompute9 ds_am.init[2802826]: The ds_am module try unload driver tmhook, loaded=
+Apr 06 13:00:50 ndcsp-p-cloud-prodcompute9 ds_am.init[2802957]: update_bm_cgroup_path, v1_path: cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+Apr 06 13:00:50 ndcsp-p-cloud-prodcompute9 ds_am.init[2802958]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 06 13:00:50 ndcsp-p-cloud-prodcompute9 ds_am.init[2802968]: check_and_set_cgroup_path, t1:cgroup
+Apr 06 13:00:50 ndcsp-p-cloud-prodcompute9 ds_am.init[2802970]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 06 13:00:50 ndcsp-p-cloud-prodcompute9 ds_am.init[2802971]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Apr 14 11:29:16 ndcsp-p-cloud-prodcompute9 ds_am.init[2436332]: The ds_am module try unload driver tmhook, loaded=
+Apr 14 11:29:17 ndcsp-p-cloud-prodcompute9 ds_am.init[2436454]: check_and_set_cgroup_path, t1:cgroup
+Apr 14 11:29:17 ndcsp-p-cloud-prodcompute9 ds_am.init[2436455]: check_and_set_cgroup_path, t2:on
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute10 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:40:37 UTC; 2 weeks 0 days ago
+   Main PID: 3910389 (ds_agent)
+      Tasks: 177 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─3584456 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3910389 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3910390 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3910983 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3910984 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3910997 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3911059 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 09 14:28:00 ndcsp-p-cloud-prodcompute10 ds_am.init[3584634]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 09 14:28:00 ndcsp-p-cloud-prodcompute10 ds_am.init[3584645]: check_and_set_cgroup_path, t2:on
+Apr 09 14:28:00 ndcsp-p-cloud-prodcompute10 ds_am.init[3584646]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute11 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:46:55 UTC; 2 weeks 0 days ago
+   Main PID: 1122918 (ds_agent)
+      Tasks: 175 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─ 224681 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─1122918 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─1122920 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─1123969 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─1123970 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─1123983 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─1124269 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 01 10:47:30 ndcsp-p-cloud-prodcompute11 ds_am.init[1124463]: check_and_set_cgroup_path, t1:cgroup
+Apr 01 10:47:30 ndcsp-p-cloud-prodcompute11 ds_am.init[1124464]: check_and_set_cgroup_path, t2:on
+Apr 01 10:47:30 ndcsp-p-cloud-prodcompute11 ds_am.init[1124465]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 01 10:47:30 ndcsp-p-cloud-prodcompute11 ds_am.init[1124466]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Apr 08 12:55:19 ndcsp-p-cloud-prodcompute11 ds_am.init[224952]: update_bm_cgroup_path, v1_path: cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+Apr 08 12:55:19 ndcsp-p-cloud-prodcompute11 ds_am.init[224953]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 08 12:55:19 ndcsp-p-cloud-prodcompute11 ds_am.init[224963]: check_and_set_cgroup_path, t1:cgroup
+Apr 08 12:55:19 ndcsp-p-cloud-prodcompute11 ds_am.init[224965]: check_and_set_cgroup_path, t2:on
+Apr 08 12:55:19 ndcsp-p-cloud-prodcompute11 ds_am.init[224966]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 08 12:55:19 ndcsp-p-cloud-prodcompute11 ds_am.init[224967]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+ndcsp-p-cloud-prodcompute12 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 08:48:34 UTC; 2 weeks 0 days ago
+   Main PID: 3960048 (ds_agent)
+      Tasks: 183 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─  71150 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3960048 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3960049 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3960669 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3960670 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3960684 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3960789 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 10 21:58:32 ndcsp-p-cloud-prodcompute12 ds_am.init[71335]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 10 21:58:32 ndcsp-p-cloud-prodcompute12 ds_am.init[71345]: check_and_set_cgroup_path, t1:cgroup
+Apr 10 21:58:32 ndcsp-p-cloud-prodcompute12 ds_am.init[71346]: check_and_set_cgroup_path, t2:on
+Apr 10 21:58:32 ndcsp-p-cloud-prodcompute12 ds_am.init[71347]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 10 21:58:32 ndcsp-p-cloud-prodcompute12 ds_am.init[71348]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute13 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 09:24:29 UTC; 2 weeks 0 days ago
+   Main PID: 3156048 (ds_agent)
+      Tasks: 173 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─2877074 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3156048 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3156049 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3156614 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3156615 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3156627 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3156700 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 01 09:25:06 ndcsp-p-cloud-prodcompute13 ds_am.init[3156884]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 01 09:25:06 ndcsp-p-cloud-prodcompute13 ds_am.init[3156895]: check_and_set_cgroup_path, t2:on
+Apr 01 09:25:06 ndcsp-p-cloud-prodcompute13 ds_am.init[3156896]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 01 09:25:06 ndcsp-p-cloud-prodcompute13 ds_am.init[3156897]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Apr 09 21:36:38 ndcsp-p-cloud-prodcompute13 ds_am.init[2877481]: The ds_am module try unload driver tmhook, loaded=
+Apr 09 21:36:38 ndcsp-p-cloud-prodcompute13 ds_am.init[2877647]: update_bm_cgroup_path, v1_path: cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+Apr 09 21:36:38 ndcsp-p-cloud-prodcompute13 ds_am.init[2877663]: check_and_set_cgroup_path, t1:cgroup
+Apr 09 21:36:38 ndcsp-p-cloud-prodcompute13 ds_am.init[2877664]: check_and_set_cgroup_path, t2:on
+Apr 09 21:36:38 ndcsp-p-cloud-prodcompute13 ds_am.init[2877666]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 09 21:36:38 ndcsp-p-cloud-prodcompute13 ds_am.init[2877669]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+ndcsp-p-cloud-prodcompute15 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 09:05:02 UTC; 2 weeks 0 days ago
+   Main PID: 1921643 (ds_agent)
+      Tasks: 172 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─1921643 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─1921645 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─1922238 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─1922239 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─1922250 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─1922311 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─2013169 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 01 09:05:02 ndcsp-p-cloud-prodcompute15 ds_agent.init[1921620]: Starting ds_agent: [OK]
+Apr 01 09:05:02 ndcsp-p-cloud-prodcompute15 systemd[1]: Started Trend Micro Deep Security Agent.
+Apr 01 09:05:37 ndcsp-p-cloud-prodcompute15 ds_am.init[1922491]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 01 09:05:37 ndcsp-p-cloud-prodcompute15 ds_am.init[1922501]: check_and_set_cgroup_path, t1:cgroup
+Apr 01 09:05:37 ndcsp-p-cloud-prodcompute15 ds_am.init[1922503]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 01 09:05:37 ndcsp-p-cloud-prodcompute15 ds_am.init[1922504]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Apr 10 21:27:17 ndcsp-p-cloud-prodcompute15 ds_am.init[2013590]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 10 21:27:17 ndcsp-p-cloud-prodcompute15 ds_am.init[2013601]: check_and_set_cgroup_path, t1:cgroup
+Apr 10 21:27:17 ndcsp-p-cloud-prodcompute15 ds_am.init[2013602]: check_and_set_cgroup_path, t2:on
+Apr 10 21:27:17 ndcsp-p-cloud-prodcompute15 ds_am.init[2013603]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+ndcsp-p-cloud-prodcompute14 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 09:20:09 UTC; 2 weeks 0 days ago
+   Main PID: 2309689 (ds_agent)
+      Tasks: 181 (limit: 1024)
+     Memory: 3.5G
+     CGroup: /system.slice/ds_agent.service
+             ├─2309689 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─2309690 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─2310301 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─2310302 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─2310316 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─2310377 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─3943870 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 01 09:20:09 ndcsp-p-cloud-prodcompute14 systemd[1]: Started Trend Micro Deep Security Agent.
+Apr 01 09:20:45 ndcsp-p-cloud-prodcompute14 ds_am.init[2310558]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 01 09:20:45 ndcsp-p-cloud-prodcompute14 ds_am.init[2310568]: check_and_set_cgroup_path, t1:cgroup
+Apr 01 09:20:45 ndcsp-p-cloud-prodcompute14 ds_am.init[2310569]: check_and_set_cgroup_path, t2:on
+Apr 01 09:20:45 ndcsp-p-cloud-prodcompute14 ds_am.init[2310570]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 06 23:02:32 ndcsp-p-cloud-prodcompute14 ds_am.init[663058]: check_and_set_cgroup_path, t1:cgroup
+Apr 06 23:02:32 ndcsp-p-cloud-prodcompute14 ds_am.init[663059]: check_and_set_cgroup_path, t2:on
+Apr 13 20:52:11 ndcsp-p-cloud-prodcompute14 ds_am.init[3944072]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 13 20:52:11 ndcsp-p-cloud-prodcompute14 ds_am.init[3944084]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 13 20:52:11 ndcsp-p-cloud-prodcompute14 ds_am.init[3944085]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+ndcsp-p-cloud-prodcompute16 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:09:58 UTC; 2 weeks 0 days ago
+   Main PID: 2137403 (ds_agent)
+      Tasks: 172 (limit: 1024)
+     Memory: 3.8G
+     CGroup: /system.slice/ds_agent.service
+             ├─1302686 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─2137403 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─2137405 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─2137946 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─2137947 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─2137960 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─2138018 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 01 10:09:58 ndcsp-p-cloud-prodcompute16 ds_agent.init[2137336]: Starting ds_agent: [OK]
+Apr 01 10:09:58 ndcsp-p-cloud-prodcompute16 systemd[1]: Started Trend Micro Deep Security Agent.
+Apr 01 10:10:28 ndcsp-p-cloud-prodcompute16 ds_am.init[2138184]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 01 10:10:28 ndcsp-p-cloud-prodcompute16 ds_am.init[2138194]: check_and_set_cgroup_path, t1:cgroup
+Apr 01 10:10:28 ndcsp-p-cloud-prodcompute16 ds_am.init[2138195]: check_and_set_cgroup_path, t2:on
+Apr 01 10:10:28 ndcsp-p-cloud-prodcompute16 ds_am.init[2138196]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 08 20:37:43 ndcsp-p-cloud-prodcompute16 ds_am.init[1302753]: The ds_am module try unload driver tmhook, loaded=
+Apr 08 20:37:43 ndcsp-p-cloud-prodcompute16 ds_am.init[1302899]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 08 20:37:43 ndcsp-p-cloud-prodcompute16 ds_am.init[1302909]: check_and_set_cgroup_path, t1:cgroup
+Apr 08 20:37:43 ndcsp-p-cloud-prodcompute16 ds_am.init[1302910]: check_and_set_cgroup_path, t2:on
+ndcsp-p-cloud-prodcompute17 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 08:49:55 UTC; 2 weeks 0 days ago
+   Main PID: 3593734 (ds_agent)
+      Tasks: 181 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─3556091 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3593734 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3593735 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3594309 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3594310 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3594322 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3594383 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 10 05:08:31 ndcsp-p-cloud-prodcompute17 ds_am.init[3557154]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 10 05:08:31 ndcsp-p-cloud-prodcompute17 ds_am.init[3557170]: check_and_set_cgroup_path, t1:cgroup
+Apr 10 05:08:31 ndcsp-p-cloud-prodcompute17 ds_am.init[3557171]: check_and_set_cgroup_path, t2:on
+Apr 10 05:08:31 ndcsp-p-cloud-prodcompute17 ds_am.init[3557172]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Apr 10 05:08:31 ndcsp-p-cloud-prodcompute17 ds_am.init[3557173]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute18 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 09:20:07 UTC; 2 weeks 0 days ago
+   Main PID: 3365729 (ds_agent)
+      Tasks: 177 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─3365729 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3365730 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3366358 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3366359 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3366372 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3366439 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─3429782 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 10 13:32:23 ndcsp-p-cloud-prodcompute18 ds_am.init[3430197]: update_bm_cgroup_path, v2_path: cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+Apr 10 13:32:23 ndcsp-p-cloud-prodcompute18 ds_am.init[3430213]: check_and_set_cgroup_path, t3:/sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute19 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:53:38 UTC; 2 weeks 0 days ago
+   Main PID: 3650598 (ds_agent)
+      Tasks: 177 (limit: 1024)
+     Memory: 3.7G
+     CGroup: /system.slice/ds_agent.service
+             ├─3320348 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3650598 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3650599 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3651148 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3651149 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3651160 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3651222 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 09 17:06:55 ndcsp-p-cloud-prodcompute19 ds_am.init[3320560]: check_and_set_cgroup_path, t1:cgroup
+Apr 09 17:06:55 ndcsp-p-cloud-prodcompute19 ds_am.init[3320561]: check_and_set_cgroup_path, t2:on
+Apr 09 17:06:55 ndcsp-p-cloud-prodcompute19 ds_am.init[3320563]: check_and_set_cgroup_path, set cgroup_base as /sys/fs/cgroup/memory
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-prodcompute20 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 10:20:25 UTC; 2 weeks 0 days ago
+   Main PID: 3476942 (ds_agent)
+      Tasks: 177 (limit: 1024)
+     Memory: 3.8G
+     CGroup: /system.slice/ds_agent.service
+             ├─2014603 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─3476942 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3476943 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3478066 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3478067 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3478080 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─3478156 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+
+Apr 07 04:26:32 ndcsp-p-cloud-prodcompute20 ds_am.init[2015874]: check_and_set_cgroup_path, t1:cgroup
+Warning: journal has been rotated since unit was started, output may be incomplete.
+ndcsp-p-cloud-storageinfra1 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-storageinfra2 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-storageinfra3 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage1 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage2 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage3 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage4 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage5 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage6 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage7 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage8 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage9 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage10 | FAILED | rc=4 >>
+Unit ds_agent.service could not be found.non-zero return code
+ndcsp-p-cloud-blockstorage12 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 02:21:09 IST; 2 weeks 0 days ago
+   Main PID: 3061476 (ds_agent)
+      Tasks: 163 (limit: 1024)
+     Memory: 2.1G
+     CGroup: /system.slice/ds_agent.service
+             ├─3061476 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3061477 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3062593 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3062594 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3062607 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3062658 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─3062674 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+ndcsp-p-cloud-blockstorage11 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 01:30:26 IST; 2 weeks 0 days ago
+   Main PID: 4016809 (ds_agent)
+      Tasks: 176 (limit: 1024)
+     Memory: 3.6G
+     CGroup: /system.slice/ds_agent.service
+             ├─3720589 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             ├─4016809 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4016810 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─4024491 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4024492 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─4024532 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             └─4034645 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+ndcsp-p-cloud-blockstorage13 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 03:11:12 IST; 2 weeks 0 days ago
+   Main PID: 310670 (ds_agent)
+      Tasks: 165 (limit: 1024)
+     Memory: 3.8G
+     CGroup: /system.slice/ds_agent.service
+             ├─310670 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─310671 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─311256 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─311257 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─311271 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─311437 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─311453 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+ndcsp-p-cloud-blockstorage14 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 01:58:56 IST; 2 weeks 0 days ago
+   Main PID: 3969597 (ds_agent)
+      Tasks: 175 (limit: 1024)
+     Memory: 4.1G
+     CGroup: /system.slice/ds_agent.service
+             ├─3969597 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3969598 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3970175 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3970176 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3970190 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3970310 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─3970326 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+ndcsp-p-cloud-blockstorage15 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 03:48:01 IST; 2 weeks 0 days ago
+   Main PID: 3990116 (ds_agent)
+      Tasks: 175 (limit: 1024)
+     Memory: 3.6G
+     CGroup: /system.slice/ds_agent.service
+             ├─3990116 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3990117 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3990702 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3990703 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3990717 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3990773 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─3990789 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+ndcsp-p-cloud-blockstorage16 | CHANGED | rc=0 >>
+● ds_agent.service - Trend Micro Deep Security Agent
+     Loaded: loaded (/lib/systemd/system/ds_agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2025-04-01 00:15:41 IST; 2 weeks 0 days ago
+   Main PID: 3923278 (ds_agent)
+      Tasks: 180 (limit: 1024)
+     Memory: 4.0G
+     CGroup: /system.slice/ds_agent.service
+             ├─3923278 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3923279 /opt/ds_agent/ds_agent -w /var/opt/ds_agent -b -i -e /opt/ds_agent/ext
+             ├─3923917 /bin/sh -c "/opt/ds_agent/netagent/tm_netagent" --metrics-file "/var/opt/ds_agent/netagent/metrics.json" --log-folder "/var/opt/ds_agent/netagent/logs" --ptn-folder "/opt/ds_agent/netagent/pattern" --jat-folder "/opt/ds_agent/netagent/java/jattach" --jex-folder "/var/opt/ds_agent/netagentjava"  --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3923918 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3923931 /opt/ds_agent/netagent/tm_netagent --metrics-file /var/opt/ds_agent/netagent/metrics.json --log-folder /var/opt/ds_agent/netagent/logs --ptn-folder /opt/ds_agent/netagent/pattern --jat-folder /opt/ds_agent/netagent/java/jattach --jex-folder /var/opt/ds_agent/netagentjava --log-console=false --log-level 1 --tmCfg WyJTc2xMaW51eEphdmFCdWlsZEVuYWJsZWQiLCJKYXZhQXR0YWNoIiwiU3NsSW5ib3VuZCIsIlNzbE91dGJvdW5kIl0=
+             ├─3924001 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
+             └─3924017 /opt/ds_agent/ds_am -g ../diag -v 5 -d /var/opt/ds_agent/am -P 1 -R
